@@ -33,7 +33,11 @@ nav {
 }
 
 .name {
-  font-size: 45px;
+  font-size: 43px;
+}
+.data {
+  font-size: 28px;
+  margin-top: 8px;
 }
 nav ul li {
   display: inline-block;
@@ -51,7 +55,7 @@ nav ul li a::after {
   content: "";
   width: 0;
   height: 3px;
-  background: red;
+  background: #ff8400;
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -75,14 +79,14 @@ nav ul li a:hover::after {
 }
 
 .header-text h1 span {
-  color: red;
+  color: #ff8400;
   margin-bottom: 40px;
 }
 
 .premimage {
   width: 350px;
   height: 350px;
-  margin-left: 300px;
+  margin-left: 200px;
   border-radius: 50%;
   margin-top: -100px;
 }
@@ -106,6 +110,7 @@ nav ul li a:hover::after {
 
 .about-col-1 img {
   width: 100%;
+  height: 510px;
   border-radius: 15px;
 }
 
@@ -117,6 +122,11 @@ nav ul li a:hover::after {
   font-size: 60px;
   font-weight: 600;
   color: #fff;
+  margin-bottom: 10px;
+}
+
+.sub-title p {
+  font-size: 30px;
 }
 
 .tab-titles {
@@ -135,7 +145,7 @@ nav ul li a:hover::after {
   content: "";
   width: 0;
   height: 3px;
-  background: red;
+  background: #ff8400;
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -152,7 +162,7 @@ nav ul li a:hover::after {
 }
 
 .tab-contents ul li span {
-  color: rgb(233, 83, 83);
+  color: #ff8400;
   font-size: 14px;
 }
 
@@ -203,7 +213,7 @@ nav ul li a:hover::after {
 }
 
 .services-list div:hover {
-  background: #ff004f;
+  background: #ff8400;
   transform: translateY(-10px);
   transition: 0.5s;
 }
@@ -229,6 +239,7 @@ nav ul li a:hover::after {
 
 .work img {
   width: 100%;
+  height: 350px;
   border-radius: 10px;
   display: block;
   transition: transform 0.5s;
@@ -237,7 +248,7 @@ nav ul li a:hover::after {
 .layer {
   width: 100%;
   height: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), #ff004f);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #ff8400);
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -260,7 +271,7 @@ nav ul li a:hover::after {
 
 .layer a {
   margin-top: 20px;
-  color: #ff004f;
+  color: #ff8400;
   text-decoration: none;
   font-size: 18px;
   line-height: 60px;
@@ -282,7 +293,7 @@ nav ul li a:hover::after {
   display: block;
   margin: 50px auto;
   width: fit-content;
-  border: 1px solid #ff004f;
+  border: 1px solid #ff8400;
   padding: 14px 50px;
   border-radius: 6px;
   text-decoration: none;
@@ -291,7 +302,7 @@ nav ul li a:hover::after {
 }
 
 .btn:hover {
-  background: #ff004f;
+  background: #ff8400;
 }
 
 /*-------------------Contact-------------------*/
@@ -309,7 +320,7 @@ nav ul li a:hover::after {
 }
 
 .contact-left p i {
-  color: #ff004f;
+  color: #ff8400;
   margin-right: 15px;
   font-size: 25px;
 }
@@ -327,13 +338,13 @@ nav ul li a:hover::after {
 }
 
 .social-icons a:hover {
-  color: #ff004f;
+  color: #ff8400;
   transform: translateY(-5px);
 }
 
 .btn.btn2 {
   display: inline-block;
-  background: #ff004f;
+  background: #ff8400;
 }
 
 .contact-right form {
@@ -367,7 +378,7 @@ form .btn2 {
 }
 
 .copyright i {
-  color: #ff004f;
+  color: #ff8400;
 }
 
 /*---------------------css for small screens-------------------*/
@@ -391,7 +402,7 @@ nav .fa-solid {
     font-size: 25px;
   }
   nav ul {
-    background: #ff004f;
+    background: #ff8400;
     position: fixed;
     top: 0;
     right: -200px;
